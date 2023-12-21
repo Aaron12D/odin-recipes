@@ -1,0 +1,19 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+}
+.recipes{
+    background-color: rgb(211, 238, 255);
+    color: rgb(86, 86, 211);
+}
+.top{ 
+    color: white;
+}
+button{
+    background-color: black;
+    color: white;
+}

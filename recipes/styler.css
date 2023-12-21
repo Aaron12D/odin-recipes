@@ -1,0 +1,39 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+h2{
+    background-color: aqua;
+    color: black;
+}
+.desc{
+    color: #ff0000;
+    background-color: aqua;
+}
+.ing{
+    color: bisque;
+    background-color: blueviolet;
+}
+.steps{
+    color: #008cff;
+}
+.top{
+    font-size: 18px;
+}
+.home{
+    font-size: 22px;
+}
+button{
+    background-color: black;
+    color: white;
+}
