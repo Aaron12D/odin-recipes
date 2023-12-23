@@ -1,3 +1,20 @@
+html{
+    box-sizing: border-box;
+}
+    
+*::before,
+*::after{box-sizing: inherit;
+}
+ul{
+    border: 4px double rgb(0, 0, 0);
+    padding: 30px;
+    width: 200px;
+    margin: auto;
+    
+}
+*{ 
+    background-color: beige;
+}
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -7,13 +24,18 @@ h1{
     text-align: center;
 }
 .recipes{
-    background-color: rgb(211, 238, 255);
-    color: rgb(86, 86, 211);
+    background-color: beige(211, 238, 255);
+    color: rgb(0, 0, 0);
 }
 .top{ 
     color: white;
+    background-color: black;
 }
 button{
+    padding: 10px;
+    width: 150px;
+    margin: auto;
     background-color: black;
     color: white;
+    display: block;
 }
