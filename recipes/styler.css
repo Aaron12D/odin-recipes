@@ -1,39 +1,43 @@
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
 }
 h1{
-    color: rgb(255, 255, 255);
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: white;
     text-align: center;
+    margin: 25px;
+    font-size: 50px;
+    border-radius: 10px;
 }
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+    border: 10px solid white;
+    border-radius: 10px;
 }
 h2{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     color: black;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
 }
-.desc{
-    color: #ff0000;
-    background-color: aqua;
+ul,li,p,ol{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
 }
-.ing{
-    color: bisque;
-    background-color: blueviolet;
-}
-.steps{
-    color: #008cff;
-}
-.top{
+div{
+    display: block;
+    text-align: center;
     font-size: 18px;
 }
-.home{
-    font-size: 22px;
-}
 button{
-    background-color: black;
-    color: white;
+    margin: 20px;
+    color: black;
 }
